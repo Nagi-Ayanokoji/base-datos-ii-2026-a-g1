@@ -1,0 +1,6 @@
+ Host:       localhost
+   Usuario:    root
+   Contraseña: bluelock123
+   Puerto:     3306
+
+database universidad
