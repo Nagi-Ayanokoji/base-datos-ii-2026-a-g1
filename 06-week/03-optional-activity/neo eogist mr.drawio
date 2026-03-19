@@ -1,0 +1,374 @@
+<mxfile host="app.diagrams.net" modified="2026-03-19T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="mr_diagram" name="MR - Modelo Relacional">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TÍTULO PÁGINA -->
+        <mxCell id="title_mr" value="Modelo Relacional — Blue Lock Liga Neo Egoísta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#00D4FF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="620" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- TABLA: equipos                             -->
+        <!-- ═══════════════════════════════════════════ -->
+        <mxCell id="eq_header" value="equipos" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#0D1F35;strokeColor=#00D4FF;fontColor=#00D4FF;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="eq_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="eq_header">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eq_r0_l" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#FFD700;fontStyle=1;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r0">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r0_r" value="id_equipo — SERIAL" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r0">
+          <mxGeometry x="50" width="210" height="30" as="geometry"><mxRectangle width="210" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="eq_header">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eq_r1_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r1">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r1_r" value="nombre_equipo — VARCHAR(50)" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r1">
+          <mxGeometry x="50" width="210" height="30" as="geometry"><mxRectangle width="210" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="eq_header">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eq_r2_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r2">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r2_r" value="pais — VARCHAR(30)" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r2">
+          <mxGeometry x="50" width="210" height="30" as="geometry"><mxRectangle width="210" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="eq_header">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eq_r3_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r3">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="eq_r3_r" value="presupuesto — NUMERIC(15,2)" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="eq_r3">
+          <mxGeometry x="50" width="210" height="30" as="geometry"><mxRectangle width="210" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- TABLA: jugadores                           -->
+        <!-- ═══════════════════════════════════════════ -->
+        <mxCell id="jg_header" value="jugadores" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#0D1F35;strokeColor=#00D4FF;fontColor=#00D4FF;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jg_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="jg_header">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jg_r0_l" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#FFD700;fontStyle=1;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r0">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r0_r" value="id_jugador — SERIAL" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r0">
+          <mxGeometry x="50" width="230" height="30" as="geometry"><mxRectangle width="230" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="jg_header">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jg_r1_l" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#00FFD4;fontStyle=1;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r1">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r1_r" value="id_equipo — INT" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r1">
+          <mxGeometry x="50" width="230" height="30" as="geometry"><mxRectangle width="230" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="jg_header">
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jg_r2_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r2">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r2_r" value="nombre_jugador — VARCHAR(60)" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r2">
+          <mxGeometry x="50" width="230" height="30" as="geometry"><mxRectangle width="230" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="jg_header">
+          <mxGeometry y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jg_r3_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r3">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="jg_r3_r" value="posicion — VARCHAR(20)" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="jg_r3">
+          <mxGeometry x="50" width="230" height="30" as="geometry"><mxRectangle width="230" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- TABLA: estadisticas_jugadores              -->
+        <!-- ═══════════════════════════════════════════ -->
+        <mxCell id="est_header" value="estadisticas_jugadores" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#0D1F35;strokeColor=#00D4FF;fontColor=#00D4FF;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="820" y="100" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="est_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="est_header">
+          <mxGeometry y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="est_r0_l" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#FFD700;fontStyle=1;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r0">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r0_r" value="id_estadistica — SERIAL" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r0">
+          <mxGeometry x="50" width="240" height="30" as="geometry"><mxRectangle width="240" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="est_header">
+          <mxGeometry y="60" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="est_r1_l" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#00FFD4;fontStyle=1;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r1">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r1_r" value="id_jugador — INT" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r1">
+          <mxGeometry x="50" width="240" height="30" as="geometry"><mxRectangle width="240" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="est_header">
+          <mxGeometry y="90" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="est_r2_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r2">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r2_r" value="goles — INT DEFAULT 0" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r2">
+          <mxGeometry x="50" width="240" height="30" as="geometry"><mxRectangle width="240" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="est_header">
+          <mxGeometry y="120" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="est_r3_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r3">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r3_r" value="asistencias — INT DEFAULT 0" style="shape=partialRectangle;connectable=0;fillColor=#060D1A;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r3">
+          <mxGeometry x="50" width="240" height="30" as="geometry"><mxRectangle width="240" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="est_header">
+          <mxGeometry y="150" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="est_r4_l" value="" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r4">
+          <mxGeometry width="50" height="30" as="geometry"><mxRectangle width="50" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+        <mxCell id="est_r4_r" value="partido — VARCHAR(60)" style="shape=partialRectangle;connectable=0;fillColor=#0A1628;strokeColor=none;fontSize=11;fontColor=#B8C8D8;top=0;left=0;bottom=0;right=0;" vertex="1" parent="est_r4">
+          <mxGeometry x="50" width="240" height="30" as="geometry"><mxRectangle width="240" height="30" as="alternateBounds" /></mxGeometry>
+        </mxCell>
+
+        <!-- RELACIONES MR -->
+        <mxCell id="rel1" value="1" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00D4FF;fontColor=#00D4FF;fontSize=11;" edge="1" source="eq_r0" target="jg_r1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" value="1" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00FFD4;fontColor=#00FFD4;fontSize=11;" edge="1" source="jg_r0" target="est_r1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- NOTAS CARDINALIDAD -->
+        <mxCell id="note1" value="1 equipo tiene muchos jugadores" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#8899AA;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="1 jugador tiene muchas estadísticas" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#8899AA;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="250" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- PÁGINA 2: C4 NIVEL 1 — CONTEXTO                          -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <diagram id="c4_nivel1" name="C4 Nivel 1 — Contexto">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="c1_title" value="C4 — Nivel 1: Contexto del Sistema" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#00D4FF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="520" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Sistema externo: Analista -->
+        <mxCell id="c1_analista" value="&lt;b&gt;Analista / Estudiante&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Person]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Ejecuta consultas SQL&lt;br&gt;para valorar jugadores" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;fillColor=#0A1628;strokeColor=#8899AA;fontColor=#B8C8D8;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="180" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Sistema principal -->
+        <mxCell id="c1_sistema" value="&lt;b&gt;Blue Lock UDF System&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Software System]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Sistema de valoración&lt;br&gt;y ranking de jugadores&lt;br&gt;de la Liga Neo Egoísta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D1F35;strokeColor=#00D4FF;fontColor=#B8C8D8;fontSize=12;align=center;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="250" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Sistema externo: PostgreSQL -->
+        <mxCell id="c1_pg" value="&lt;b&gt;PostgreSQL 16&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Software System — External]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Motor de base de datos.&lt;br&gt;Ejecuta PL/pgSQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0A1628;strokeColor=#8899AA;fontColor=#B8C8D8;fontSize=12;align=center;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="820" y="250" width="220" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Flecha analista → sistema -->
+        <mxCell id="c1_arr1" value="Ejecuta script SQL&lt;br&gt;via psql CLI" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#00D4FF;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c1_analista" target="c1_sistema" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Flecha sistema → PostgreSQL -->
+        <mxCell id="c1_arr2" value="Lee / escribe datos&lt;br&gt;via SQL / PL/pgSQL" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#00FFD4;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c1_sistema" target="c1_pg" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Leyenda -->
+        <mxCell id="c1_leg" value="Nivel 1 muestra quién usa el sistema y qué sistemas externos involucra." style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontColor=#8899AA;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="620" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- PÁGINA 3: C4 NIVEL 2 — CONTENEDORES                      -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <diagram id="c4_nivel2" name="C4 Nivel 2 — Contenedores">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="c2_title" value="C4 — Nivel 2: Contenedores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#00D4FF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="520" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor sistema principal (bounding box) -->
+        <mxCell id="c2_boundary" value="Blue Lock UDF System" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.c4.systemScopeBoundary;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00D4FF;strokeDashArray=8 4;fontColor=#00D4FF;fontSize=13;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="760" height="560" as="geometry" />
+        </mxCell>
+
+        <!-- Actor externo -->
+        <mxCell id="c2_analista" value="&lt;b&gt;Analista&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Person]&lt;/font&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;fillColor=#0A1628;strokeColor=#8899AA;fontColor=#B8C8D8;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="110" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor 1: Script SQL -->
+        <mxCell id="c2_script" value="&lt;b&gt;Script SQL&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[File: .sql]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Punto de entrada.&lt;br&gt;Define DDL, DML y UDFs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D1F35;strokeColor=#00D4FF;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="180" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor 2: Capa DDL -->
+        <mxCell id="c2_ddl" value="&lt;b&gt;Capa DDL&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[SQL Schema]&lt;/font&gt;&lt;br&gt;&lt;br&gt;3 tablas: equipos,&lt;br&gt;jugadores, estadísticas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1040;strokeColor=#8B5CF6;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="180" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor 3: Capa DML -->
+        <mxCell id="c2_dml" value="&lt;b&gt;Capa DML&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[SQL Data]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Datos de 5 equipos,&lt;br&gt;8 jugadores y partidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1040;strokeColor=#8B5CF6;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="180" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor 4: Capa UDF -->
+        <mxCell id="c2_udf" value="&lt;b&gt;Capa UDF&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[PL/pgSQL Functions]&lt;/font&gt;&lt;br&gt;&lt;br&gt;3 funciones de valoración&lt;br&gt;y clasificación" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D2820;strokeColor=#00FFD4;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="190" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor 5: Capa Consultas -->
+        <mxCell id="c2_queries" value="&lt;b&gt;Capa de consultas&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[SQL Queries]&lt;/font&gt;&lt;br&gt;&lt;br&gt;4 SELECTs: ranking,&lt;br&gt;reporte, filtro, presupuesto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D2820;strokeColor=#00FFD4;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="190" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Contenedor 6: PostgreSQL schema -->
+        <mxCell id="c2_pg" value="&lt;b&gt;Schema public&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[PostgreSQL 16]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Almacena tablas&lt;br&gt;y funciones" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#1A2A10;strokeColor=#FF8C00;fontColor=#B8C8D8;fontSize=11;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="790" y="300" width="110" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Flechas -->
+        <mxCell id="c2_a1" value="psql -f" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00D4FF;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c2_analista" target="c2_script" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_a2" value="define" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8B5CF6;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c2_script" target="c2_ddl" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_a3" value="puebla" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8B5CF6;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c2_ddl" target="c2_dml" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_a4" value="registra" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00FFD4;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c2_script" target="c2_udf" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_a5" value="invocan" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00FFD4;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c2_udf" target="c2_queries" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_a6" value="persiste en" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#FF8C00;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c2_udf" target="c2_pg" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_a7" value="consulta" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#FF8C00;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;dashed=1;" edge="1" source="c2_queries" target="c2_pg" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- PÁGINA 4: C4 NIVEL 3 — COMPONENTES (Capa UDF)            -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <diagram id="c4_nivel3" name="C4 Nivel 3 — Componentes UDF">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="c3_title" value="C4 — Nivel 3: Componentes de la Capa UDF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#00D4FF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Boundary capa UDF -->
+        <mxCell id="c3_boundary" value="Capa UDF — PL/pgSQL" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.c4.systemScopeBoundary;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00FFD4;strokeDashArray=8 4;fontColor=#00FFD4;fontSize=13;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="680" height="560" as="geometry" />
+        </mxCell>
+
+        <!-- Entrada externa -->
+        <mxCell id="c3_stats" value="&lt;b&gt;estadisticas_jugadores&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Table]&lt;/font&gt;&lt;br&gt;&lt;br&gt;goles, asistencias&lt;br&gt;por partido" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#0A1628;strokeColor=#8899AA;fontColor=#B8C8D8;fontSize=11;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="130" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Componente 1: fn_calcular_bid -->
+        <mxCell id="c3_calc" value="&lt;b&gt;fn_calcular_bid_bluelock&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Component: UDF Escalar]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Recibe goles y asistencias.&lt;br&gt;Retorna NUMERIC (bid en ¥).&lt;br&gt;Usa COALESCE para NULL safety." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D2820;strokeColor=#00FFD4;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="240" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Componente 2: fn_rango_egoista -->
+        <mxCell id="c3_rango" value="&lt;b&gt;fn_rango_egoista&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Component: UDF Clasificadora]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Recibe bid NUMERIC.&lt;br&gt;Retorna TEXT (categoría).&lt;br&gt;Lógica IF / ELSIF / ELSE." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D2820;strokeColor=#00FFD4;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="240" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Componente 3: fn_resumen_jugador -->
+        <mxCell id="c3_resumen" value="&lt;b&gt;fn_resumen_jugador&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Component: UDF Compuesta]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Orquesta fn_calcular_bid&lt;br&gt;y fn_rango_egoista.&lt;br&gt;Retorna TEXT narrativo." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D2820;strokeColor=#00FFD4;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="500" width="240" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Salida: Capa consultas -->
+        <mxCell id="c3_queries" value="&lt;b&gt;Capa de consultas&lt;/b&gt;&lt;br&gt;&lt;font color='#8899AA'&gt;[Container]&lt;/font&gt;&lt;br&gt;&lt;br&gt;4 SELECTs que invocan&lt;br&gt;las UDFs como columnas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0A1628;strokeColor=#8899AA;fontColor=#B8C8D8;fontSize=11;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="220" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Flechas -->
+        <mxCell id="c3_a1" value="goles, asistencias" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8899AA;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c3_stats" target="c3_calc" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a2" value="goles, asistencias" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8899AA;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c3_stats" target="c3_rango" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a3" value="datos jugador" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8899AA;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c3_stats" target="c3_resumen" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a4" value="NUMERIC bid" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00FFD4;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;dashed=1;" edge="1" source="c3_calc" target="c3_rango" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a5" value="llama internamente" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00FFD4;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;dashed=1;" edge="1" source="c3_resumen" target="c3_calc" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a6" value="llama internamente" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00FFD4;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;dashed=1;" edge="1" source="c3_resumen" target="c3_rango" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a7" value="retorna resultados" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00D4FF;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c3_calc" target="c3_queries" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a8" value="retorna resultados" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00D4FF;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c3_rango" target="c3_queries" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_a9" value="retorna resultados" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00D4FF;fontColor=#8899AA;fontSize=10;endArrow=block;endFill=1;" edge="1" source="c3_resumen" target="c3_queries" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+</mxfile>
